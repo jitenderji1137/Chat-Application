@@ -2,7 +2,6 @@ import React from "react";
 import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 const Welcome = () => {
-    window.scrollTo(0, document.body.scrollHeight);
     return (
         <main className="welcome">
         <h2>Welcome to Web Chat</h2>

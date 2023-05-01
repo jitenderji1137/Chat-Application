@@ -3,7 +3,6 @@ import { auth } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 const NavBar = () => {
-    window.scrollTo(0, document.body.scrollHeight);
     const [user] = useAuthState(auth);
     return (
         <nav className="nav-bar">
