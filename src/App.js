@@ -6,18 +6,12 @@ import { auth } from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 function App() {
   const [user] = useAuthState(auth);
+  window.scrollTo(0, document.body.scrollHeight);
   return (
     <div className="App">
-      <NavBar />
-      {!user ? (
-        <Welcome />
-      ) : (
-        <>
-          <ChatBox />
-        </>
-      )}
+      <NavBar/>
+      {user?<ChatBox/>:<Welcome/>}
     </div>
   );
 }
-
 export default App;
