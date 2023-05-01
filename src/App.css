@@ -23,7 +23,7 @@ button {
   cursor: pointer;
 }
 input{
-  cursor :alias;
+  cursor :auto;
 }
 .App {
   width: 100%;
