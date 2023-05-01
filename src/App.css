@@ -155,9 +155,6 @@ input{
   font-weight: 600;
 }
 @media screen and (min-width:0px) and (max-width:500px) {
-  .messages-wrapper{
-    padding:5px;
-  }
   .nav-bar{
     padding: 10px;
   }
