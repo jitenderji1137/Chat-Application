@@ -28,7 +28,8 @@ Please leave a ⭐ as motivation if you liked the implementation 😄
 
 
 ## Running the project
-This is a [React.js](https://react.dev/) project created with [`npm i create-react-app`](https://www.npmjs.com/package/create-react-app).
+This is a [React.js](https://react.dev/) project created with [`npx create-react-app my-app`](https://www.npmjs.com/package/create-react-app).
+After installation `cd my-app`.
 
 In the project directory, you can run:
 
